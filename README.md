@@ -1,3 +1,5 @@
+![main](https://github.com/bit-trade-one/USBCableChecker2/blob/image/WP-%E8%A3%BD%E5%93%81%E3%83%88%E3%83%83%E3%83%97-MAIN.png)
+
 # USB CABLE CHECKER2 取扱説明書
 
 ## 機能紹介
@@ -18,7 +20,7 @@
 
 ## 各部の説明
 
-
+![info](https://github.com/bit-trade-one/USBCableChecker2/blob/image/WP-%E8%A3%BD%E5%93%81%E3%83%88%E3%83%83%E3%83%97-SUB1.png)
 
 ## 使用方法
 
@@ -46,7 +48,7 @@ A側とB側に繋いだケーブルのVBUSとGNDの**両方**が結線されて�
 
 ## 電池の交換方法
 
-<img src="https://lh4.googleusercontent.com/73-uiDd_kTbdbabOrrpPLtvO4b3hMHSL4-iFW5v5Pc7ej-z6dSuNb1CDhtPvfjaD_lXa7f9pGcEUowNurw1lupkVanWQa0A8-hYJPqf5NBU_KbsPa_jXTBsU3-CLVJ5qEW8lHLRWJsxaYE4luA" alt="D:\DATA\Desktop\DSC04517 (1).JPG" style="zoom:25%;" />
+![swap](https://github.com/bit-trade-one/USBCableChecker2/blob/image/image4.jpg)
 
 起動時、OLEDディスプレイに「LOW BATTERY」と表示されたら電池の交換時期です。
 
@@ -120,7 +122,7 @@ Cプラグ内にGND-CC間に接続された5.1kΩの抵抗器を持ちます。
 
 ## ワイヤ接続確認LEDの解説
 
-![img](https://llstock.s3-ap-northeast-1.amazonaws.com/uploads/photo/image/405311/middle_stockimage.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI7P6SP7G3K7DHTNA%2F20190925%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20190925T100729Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&X-Amz-Signature=841e264b7922fd3a68fbea8940ffacacd916b6cd5eddf572e42f966e542c786e)
+![img](https://github.com/bit-trade-one/USBCableChecker2/blob/image/ADUSBCIM_LED.png)
 
 ### [3.2]　
 
