@@ -170,3 +170,5 @@ USB2.0迄のデータ通信 （LowSpeed / Full Speed 及びHigh Speed）を行�
 
 その後、新しいCR2032バッテリーのプラス側を上にして装着します。
 
+公式ページ http://bit-trade-one.co.jp/adusbcim
+
