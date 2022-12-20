@@ -21,6 +21,8 @@
 ## 各部の説明
 
 ![info](https://github.com/bit-trade-one/USBCableChecker2/blob/image/WP-%E8%A3%BD%E5%93%81%E3%83%88%E3%83%83%E3%83%97-SUB1.png)
+![info](https://cdn.shopify.com/s/files/1/0512/2264/2842/files/UCC2Eng2.jpg?v=1671508735)
+
 
 ## ご使用の前に・注意事項
 
@@ -135,6 +137,7 @@ A側、B側すべてのCCの端子の状態を列挙します。この機能は�
 ## ワイヤ接続確認LEDの解説
 
 ![img](https://github.com/bit-trade-one/USBCableChecker2/blob/image/ADUSBCIM_LED.png)
+![img](https://cdn.shopify.com/s/files/1/0512/2264/2842/files/UCC2Eng.jpg?v=1671508738)
 
 ### [3.2]　
 
