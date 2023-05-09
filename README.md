@@ -19,10 +19,16 @@
 ------
 
 ## 各部の説明
-
+【JP】  
+<img src="https://github.com/bit-trade-one/USBCableChecker2/blob/image/WP-%E8%A3%BD%E5%93%81%E3%83%88%E3%83%83%E3%83%97-SUB1.png" width="480px">
+<!--  
 ![info](https://github.com/bit-trade-one/USBCableChecker2/blob/image/WP-%E8%A3%BD%E5%93%81%E3%83%88%E3%83%83%E3%83%97-SUB1.png)
+-->
+【EN】  
+<img src="https://cdn.shopify.com/s/files/1/0512/2264/2842/files/UCC2Eng2.jpg?v=1671508735" width="480px">
+<!-- 
 ![info](https://cdn.shopify.com/s/files/1/0512/2264/2842/files/UCC2Eng2.jpg?v=1671508735)
-
+-->
 
 ## ご使用の前に・注意事項
 
@@ -125,9 +131,10 @@ Cプラグ内にGND-CC間に接続された5.1kΩの抵抗器を持ちます。
 なお、通常レガシーUSBケーブルのシールド線は通常はどちらか片方のプラグにだけ接続され、プラグ間導通はありません。  
 
 ## Weird cable(奇妙なケーブル)モード
-
+<img src="https://github.com/bit-trade-one/USBCableChecker2/blob/image/weird_cable_mode_example.png" width="680px">
+<!-- 
 ![img](https://github.com/bit-trade-one/USBCableChecker2/blob/image/weird_cable_mode_example.png)
-
+-->
 ケーブル、プラグに複数のCCプルアップまたはプルダウン抵抗を発見した場合、ディスプレイの表示は通常とは異なる
 
 表示モードに入ります。この表示モードでは抵抗値は小さく表示されシェルやシールドの状態は表示されなくなり、
@@ -135,9 +142,16 @@ Cプラグ内にGND-CC間に接続された5.1kΩの抵抗器を持ちます。
 A側、B側すべてのCCの端子の状態を列挙します。この機能は表裏判別不能等のUSB規格に沿わないType-Cケーブルの発見に役立ちます。
 
 ## ワイヤ接続確認LEDの解説
-
-![img](https://github.com/bit-trade-one/USBCableChecker2/blob/image/ADUSBCIM_LED.png)
+【JP】  
+<img src="https://github.com/bit-trade-one/USBCableChecker2/blob/image/ADUSBCIM_LED.png" width="680px">
+<!-- 
+![img](https://github.com/bit-trade-one/USBCableChecker2/blob/image/ADUSBCIM_LED.png)  
+-->
+【EN】  
+<img src="https://cdn.shopify.com/s/files/1/0512/2264/2842/files/UCC2Eng.jpg?v=1671508738" width="600px">
+<!-- 
 ![img](https://cdn.shopify.com/s/files/1/0512/2264/2842/files/UCC2Eng.jpg?v=1671508738)
+-->
 
 ### [3.2]　
 
@@ -176,9 +190,10 @@ USB2.0迄のデータ通信 （LowSpeed / Full Speed 及びHigh Speed）を行�
 電源管理の為に使用するワイヤです。
 
 ## 電池の交換方法
-
+<img src="https://github.com/bit-trade-one/USBCableChecker2/blob/image/image4.jpg" width="480px">
+<!-- 
 ![swap](https://github.com/bit-trade-one/USBCableChecker2/blob/image/image4.jpg)
-
+-->
 起動時、OLEDディスプレイに「LOW BATTERY」と表示されたら電池の交換時期です。
 
 上記画像のようにマイナス端子と電池の隙間にマイナスドライバーの先を滑り込ませるようにしてテコの原理を利用して外します。
