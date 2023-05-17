@@ -19,8 +19,16 @@ This product has the following features.
 
 ## Explanation of each part
 
+【JP】  
+<img src="https://github.com/bit-trade-one/USBCableChecker2/blob/image/WP-%E8%A3%BD%E5%93%81%E3%83%88%E3%83%83%E3%83%97-SUB1.png" width="480px">
+<!--  
 ![info](https://github.com/bit-trade-one/USBCableChecker2/blob/image/WP-%E8%A3%BD%E5%93%81%E3%83%88%E3%83%83%E3%83%97-SUB1.png)
+-->
+【EN】  
+<img src="https://cdn.shopify.com/s/files/1/0512/2264/2842/files/UCC2Eng2.jpg?v=1671508735" width="480px">
+<!-- 
 ![info](https://cdn.shopify.com/s/files/1/0512/2264/2842/files/UCC2Eng2.jpg?v=1671508735)
+-->
 
 
 ## Before Use / Precautions
@@ -125,7 +133,10 @@ Note that the shield wire of a regular legacy USB cable is usually connected to 
 
 ## Weird cable mode
 
+<img src="https://github.com/bit-trade-one/USBCableChecker2/blob/image/weird_cable_mode_example.png" width="680px">
+<!-- 
 ![img](https://github.com/bit-trade-one/USBCableChecker2/blob/image/weird_cable_mode_example.png)
+-->
 
 When multiple CC pull-up or pull-down resistors are found in the cable or plug, the display enters a different mode than usual.
 
@@ -133,8 +144,16 @@ In this mode, the resistance values are displayed smaller, the shell and shield 
 
 ## Explanation of wire connection confirmation LEDs
 
-![img](https://github.com/bit-trade-one/USBCableChecker2/blob/image/ADUSBCIM_LED.png)
+【JP】  
+<img src="https://github.com/bit-trade-one/USBCableChecker2/blob/image/ADUSBCIM_LED.png" width="680px">
+<!-- 
+![img](https://github.com/bit-trade-one/USBCableChecker2/blob/image/ADUSBCIM_LED.png)  
+-->
+【EN】  
+<img src="https://cdn.shopify.com/s/files/1/0512/2264/2842/files/UCC2Eng.jpg?v=1671508738" width="600px">
+<!-- 
 ![img](https://cdn.shopify.com/s/files/1/0512/2264/2842/files/UCC2Eng.jpg?v=1671508738)
+-->
 
 ### [3.2]　
 
@@ -172,7 +191,10 @@ Wires used for power management.
 
 ## How to replace the battery
 
+<img src="https://github.com/bit-trade-one/USBCableChecker2/blob/image/image4.jpg" width="480px">
+<!-- 
 ![swap](https://github.com/bit-trade-one/USBCableChecker2/blob/image/image4.jpg)
+-->
 
 When "LOW BATTERY" is displayed on the OLED display at startup, it is time to replace the battery.
 
