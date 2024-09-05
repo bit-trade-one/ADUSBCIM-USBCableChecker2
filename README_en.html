@@ -1,0 +1,215 @@
+<h1 id="usb-cable-checker2-manual">USB CABLE CHECKER2 Manual</h1>
+<h2 id="table-of-content">Table of content</h2>
+<!-- MarkdownTOC -->
+<ul>
+<li><a href="#features">Features</a></li>
+<li><a href="#explanation-of-each-part">Explanation of each
+part</a></li>
+<li><a href="#before-use--precautions">Before Use / Precautions</a></li>
+<li><a href="#how-to-use">How to use</a></li>
+<li><a href="#explanation-of-oled-display-indications">Explanation of
+OLED Display Indications</a>
+<ul>
+<li><a href="#resistance">[Resistance]</a></li>
+<li><a href="#up10ksource-30a">[UP10K/SOURCE 3.0A]</a></li>
+<li><a href="#up22ksource-15a">[UP22K/SOURCE 1.5A]</a></li>
+<li><a href="#up56ksource-05a">[UP56K/SOURCE 0.5A]</a></li>
+<li><a href="#down1ke-marked">[DOWN1K/E-MARKED]</a></li>
+<li><a href="#down51ksink-05a">[DOWN5.1K/SINK 0.5A]</a></li>
+<li><a href="#otg-enable">[OTG ENABLE]</a></li>
+<li><a href="#shell-gnd-shortside">[SHELL-GND SHORT(SIDE)]</a></li>
+<li><a href="#shield-connect">[SHIELD CONNECT]</a></li>
+</ul></li>
+<li><a href="#weird-cable-mode">Weird cable mode</a></li>
+<li><a
+href="#explanation-of-wire-connection-confirmation-leds">Explanation of
+Wire Connection Confirmation LEDs</a>
+<ul>
+<li><a href="#32">[3.2]</a></li>
+<li><a href="#cc">CC</a></li>
+<li><a href="#sbu">SBU</a></li>
+<li><a href="#tx12-and-rx12">TX1/2 and RX1/2</a></li>
+<li><a href="#20">[2.0]</a></li>
+<li><a href="#d">D</a></li>
+<li><a href="#vbus-and-gnd">VBUS and GND</a></li>
+</ul></li>
+<li><a href="#battery-replacement-method">Battery Replacement
+Method</a></li>
+</ul>
+<!-- /MarkdownTOC -->
+<h2 id="features">Features</h2>
+<p>This product has the following features :</p>
+<hr />
+<ul>
+<li><p>Check the wire connection status of USB cables</p></li>
+<li><p>Check the built-in resistance of a Type C plug (check for the
+presence of PD E-Marker)</p></li>
+<li><p>Check the resistance of the power line</p></li>
+<li><p>Check for ground fault in a plug shell</p></li>
+</ul>
+<hr />
+<h2 id="explanation-of-each-part">Explanation of each part</h2>
+<figure>
+<img
+src="https://cdn.shopify.com/s/files/1/0512/2264/2842/files/UCC2Eng2.jpg?v=1671508735"
+alt="info" />
+<figcaption aria-hidden="true">info</figcaption>
+</figure>
+<h2 id="before-use-precautions">Before Use / Precautions</h2>
+<p>When purchased, the USBCableChecker2 comes with a battery installed
+for operational verification.</p>
+<p>There is an insulating seal placed between the battery and the
+device; please remove it before use.</p>
+<p>The circuit board is protected by acrylic, but as connectors and
+other components are exposed, please handle with care.</p>
+<p><strong>This product is a cable testing device only. Do not connect
+other USB devices to it as this may cause damage.</strong></p>
+<h2 id="how-to-use">How to use</h2>
+<ul>
+<li><strong>Determining Plug Adapter Compatibility</strong></li>
+</ul>
+<p>After powering on the device, connect a conversion adapter to either
+the A-side or B-side connector.</p>
+<p>If there is a built-in resistance connected to CC in the Type C plug
+adapter, the resistance value will be displayed on the OLED screen.</p>
+<p>If the adapter has OTG (On-The-Go) functionality, “OTG ENABLE” will
+be displayed.</p>
+<ul>
+<li><strong>Cable Determination</strong></li>
+</ul>
+<p>After turning on the device, connect the A-side and B-side connectors
+with a USB cable.</p>
+<p>If the wires are properly connected, the corresponding LED will light
+up under “CONNECTION”.</p>
+<ul>
+<li><strong>OLED Display Section</strong></li>
+</ul>
+<p>If <strong>both</strong> VBUS and GND of the cable connected to the A
+and B sides are wired, the display will show the <strong>total</strong>
+resistance value of the VBUS and GND lines.</p>
+<p>Connecting a Type C plug with an internal resistance will display the
+value of the pull-up/pull-down resistance connected to CC, as well as
+the maximum allowable current value notified to the connected device
+according to the resistance.</p>
+<p>If a 10k pull-down resistance is detected, the cable is identified as
+MARKED.</p>
+<h2 id="explanation-of-oled-display-indications">Explanation of OLED
+Display Indications</h2>
+<h3 id="resistance">[Resistance]</h3>
+<p>This is the total resistance of the GND and VBUS lines.</p>
+<p>It includes the contact resistance between the USB plug and
+connector. The unit is milliohms (mΩ) with an accuracy of ±15%.</p>
+<p>The measurement limit is 1100mΩ, and values above this are displayed
+as “HIGH”.</p>
+<h3 id="up10ksource-3.0a">[UP10K/SOURCE 3.0A]</h3>
+<p>This indicates a 10kΩ resistor connected between VBUS and CC within
+the Type C plug.</p>
+<p>It signals to the USB device that the host can supply a current of up
+to 3A.</p>
+<p><strong>Cables with this resistance value built into the plug are
+non-standard according to USB specifications.</strong></p>
+<h3 id="up22ksource-1.5a">[UP22K/SOURCE 1.5A]</h3>
+<p>Indicates a 22kΩ resistor connected between VBUS and CC within the
+Type C plug.</p>
+<p>It signals to the USB device that the host is capable of supplying a
+current of 1.5A.</p>
+<p><strong>Cables with this resistor value built into the plug are
+non-standard according to USB specifications.</strong></p>
+<h3 id="up56ksource-0.5a">[UP56K/SOURCE 0.5A]</h3>
+<p>Indicates a 56kΩ resistor connected between VBUS and CC within the
+Type C plug.</p>
+<p>It signals to the USB device that the host is capable of supplying a
+current of 0.5A.</p>
+<p>This is the only connector-built-in pull-up resistor value permitted
+by USB specifications.</p>
+<h3 id="down1ke-marked">[DOWN1K/E-MARKED]</h3>
+<p>Indicates a 1kΩ resistor connected between GND and VCONN within the
+Type C plug.</p>
+<p>This notifies the connected USB device that the cable contains an
+E-marker IC.</p>
+<h3 id="down5.1ksink-0.5a">[DOWN5.1K/SINK 0.5A]</h3>
+<p>Indicates a 5.1kΩ resistor connected between GND and CC within the
+Type C plug.</p>
+<p>This allows the connected USB device to act as a host if
+possible.</p>
+<h3 id="otg-enable">[OTG ENABLE]</h3>
+<p>Although not a resistor, it lights up when the GND-ID terminal
+between Mini-B, Micro-B connectors is short-circuited.</p>
+<p>This allows the connected USB device to act as a host if
+possible.</p>
+<h3 id="shell-gnd-shortside">[SHELL-GND SHORT(SIDE)]</h3>
+<p>Displayed when the plug shell is conductive with GND. The parentheses
+indicate which side’s connector, A or B, is conductive.</p>
+<p>If both connectors are conductive, it displays as A&amp;B.</p>
+<p>Note that for Type C-C cables, the standard specifies that the shell
+is connected to GND.</p>
+<h3 id="shield-connect">[SHIELD CONNECT]</h3>
+<p>Displayed when both ends’ shells are connected with a wire
+independent of GND as “SHIELD CONNECT”.</p>
+<p>Typically, the shield wire of legacy USB cables is connected only to
+one plug, and there is no continuity between plugs.</p>
+<h2 id="weird-cable-mode">Weird cable mode</h2>
+<figure>
+<img
+src="https://github.com/bit-trade-one/USBCableChecker2/blob/image/weird_cable_mode_example.png?raw=true"
+alt="img" />
+<figcaption aria-hidden="true">img</figcaption>
+</figure>
+<p>When multiple CC pull-up or pull-down resistors are detected in the
+cable or plug, the display will switch to a mode that differs from the
+usual display mode.</p>
+<p>In this display mode, resistance values are shown smaller, and the
+status of the shell or shield is not displayed. Instead, it lists the
+status of all CC terminals on both the A and B sides. This feature is
+useful for identifying non-standard Type-C cables, such as those that
+cannot differentiate between orientations.</p>
+<h2 id="explanation-of-wire-connection-confirmation-leds">Explanation of
+Wire Connection Confirmation LEDs</h2>
+<figure>
+<img
+src="https://cdn.shopify.com/s/files/1/0512/2264/2842/files/UCC2Eng.jpg?v=1671508738"
+alt="img" />
+<figcaption aria-hidden="true">img</figcaption>
+</figure>
+<h3 id="section">[3.2]</h3>
+<p>These wires are used for USB 3.2 connections. The names of the
+differential pairs correspond to the terminal names on the A-side
+connector.</p>
+<h3 id="cc">CC</h3>
+<p>In Type C cables, this wire is primarily used for identifying hosts
+and devices and for USB PD (Power Delivery) communication.</p>
+<p>Various functionalities are communicated between devices via this
+wire to determine their availability.</p>
+<h3 id="sbu">SBU</h3>
+<p>Stands for Side Band Use. These wires are used for transferring data
+other than USB data communication, such as audio or video.</p>
+<p>They are mainly used in alternate mode.</p>
+<h3 id="tx12-and-rx12">TX1/2 and RX1/2</h3>
+<p>These wires are used for communication in USB 3.0 and later
+versions.</p>
+<p>USB 3.0 uses two pairs of wires for data communication (SuperSpeed
+/SS), while USB 3.2 uses four pairs of wires for data communication
+(SuperSpeed+ / SS+).</p>
+<h3 id="section-1">[2.0]</h3>
+<p>These wires are used for USB 1.0 to USB 2.0 connections.</p>
+<h3 id="d">D</h3>
+<p>These wires are used for data communication up to USB 2.0 (LowSpeed /
+Full Speed and High Speed).</p>
+<h3 id="vbus-and-gnd">VBUS and GND</h3>
+<p>These wires are used for power management.</p>
+<h2 id="battery-replacement-method">Battery Replacement Method</h2>
+<figure>
+<img
+src="https://github.com/bit-trade-one/USBCableChecker2/blob/image/image4.jpg?raw=true"
+alt="swap" />
+<figcaption aria-hidden="true">swap</figcaption>
+</figure>
+<p>When “LOW BATTERY” is displayed on the OLED screen at startup, it is
+time to replace the battery.</p>
+<p>As shown in the image above, insert the tip of a flathead screwdriver
+into the gap between the negative terminal and the battery, then
+leverage it out using the principle of a lever.</p>
+<p>Afterward, install a new CR2032 battery with the positive side facing
+up.</p>
+<p>Official page: <a href="http://bit-trade-one.co.jp/en/adusbcim"
+class="uri">http://bit-trade-one.co.jp/en/adusbcim</a></p>
