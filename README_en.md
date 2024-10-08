@@ -1,4 +1,43 @@
+---
+title: "USB CABLE CHECKER2 Manual"
+author: BitTradeOne - Devices,boards,Switches
+date: "2024-03-13"
+keywords: [USB, CABLE, CHECKER2, ADUSBCIM]
+lang: "en"
+...
+
 # USB CABLE CHECKER2 Manual
+
+## Table of content
+
+<!-- MarkdownTOC -->
+
+- [Features](#features)
+- [Explanation of each part](#explanation-of-each-part)
+- [Before Use / Precautions](#before-use--precautions)
+- [How to use](#how-to-use)
+- [Explanation of OLED Display Indications](#explanation-of-oled-display-indications)
+    - [\[Resistance\]](#resistance)
+    - [\[UP10K/SOURCE 3.0A\]](#up10ksource-30a)
+    - [\[UP22K/SOURCE 1.5A\]](#up22ksource-15a)
+    - [\[UP56K/SOURCE 0.5A\]](#up56ksource-05a)
+    - [\[DOWN1K/E-MARKED\]](#down1ke-marked)
+    - [\[DOWN5.1K/SINK 0.5A\]](#down51ksink-05a)
+    - [\[OTG ENABLE\]](#otg-enable)
+    - [\[SHELL-GND SHORT\(SIDE\)\]](#shell-gnd-shortside)
+    - [\[SHIELD CONNECT\]](#shield-connect)
+- [Weird cable mode](#weird-cable-mode)
+- [Explanation of Wire Connection Confirmation LEDs](#explanation-of-wire-connection-confirmation-leds)
+    - [\[3.2\]](#32)
+    - [CC](#cc)
+    - [SBU](#sbu)
+    - [TX1/2 and RX1/2](#tx12-and-rx12)
+    - [\[2.0\]](#20)
+    - [D](#d)
+    - [VBUS and GND](#vbus-and-gnd)
+- [Battery Replacement Method](#battery-replacement-method)
+
+<!-- /MarkdownTOC -->
 
 ## Features
 
