@@ -202,3 +202,8 @@ USB2.0迄のデータ通信 （LowSpeed / Full Speed 及びHigh Speed）を行�
 
 公式ページ http://bit-trade-one.co.jp/adusbcim
 
+## 紹介・レビュー
+
+[「LAPO」様 / 「USB CABLE CHECKER2」でUSBケーブルの性能をテストして断捨離！火災予防の保険に！」](https://rezv.net/gadget/66060/)
+[「朝から昼寝」様 / 「USBケーブルの性能判別、USB CABLE CHECKER 2
+」]((https://happynap.net/usb-cable-checker-2/))
